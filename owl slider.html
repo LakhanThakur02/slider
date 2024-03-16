@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Owl Carousel Video Slider</title>
+
+    <!-- Owl Carousel CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+
+    <!-- Owl Carousel JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+    <style>
+        .owl-carousel {
+            margin: 30px;
+        }
+
+        .item {
+            padding: 10px; /* Add space between videos */
+        }
+
+        video {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="owl-carousel">
+        <div class="item">
+            <script src="https://fast.wistia.com/embed/medias/u42tuera9i.jsonp" async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><div class="wistia_responsive_padding" style="padding:177.78% 0 0 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div class="wistia_embed wistia_async_u42tuera9i seo=true videoFoam=true" style="height:100%;position:relative;width:100%"><div class="wistia_swatch" style="height:100%;left:0;opacity:0;overflow:hidden;position:absolute;top:0;transition:opacity 200ms;width:100%;"><img src="https://fast.wistia.com/embed/medias/u42tuera9i/swatch" style="filter:blur(5px);height:100%;object-fit:contain;width:100%;" alt="" aria-hidden="true" onload="this.parentNode.style.opacity=1;" /></div></div></div></div>
+        </div>
+        <div class="item">
+            <script src="https://fast.wistia.com/embed/medias/u42tuera9i.jsonp" async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><div class="wistia_responsive_padding" style="padding:177.78% 0 0 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div class="wistia_embed wistia_async_u42tuera9i seo=true videoFoam=true" style="height:100%;position:relative;width:100%"><div class="wistia_swatch" style="height:100%;left:0;opacity:0;overflow:hidden;position:absolute;top:0;transition:opacity 200ms;width:100%;"><img src="https://fast.wistia.com/embed/medias/u42tuera9i/swatch" style="filter:blur(5px);height:100%;object-fit:contain;width:100%;" alt="" aria-hidden="true" onload="this.parentNode.style.opacity=1;" /></div></div></div></div>
+        </div>
+        <div class="item">
+            <script src="https://fast.wistia.com/embed/medias/u42tuera9i.jsonp" async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><div class="wistia_responsive_padding" style="padding:177.78% 0 0 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div class="wistia_embed wistia_async_u42tuera9i seo=true videoFoam=true" style="height:100%;position:relative;width:100%"><div class="wistia_swatch" style="height:100%;left:0;opacity:0;overflow:hidden;position:absolute;top:0;transition:opacity 200ms;width:100%;"><img src="https://fast.wistia.com/embed/medias/u42tuera9i/swatch" style="filter:blur(5px);height:100%;object-fit:contain;width:100%;" alt="" aria-hidden="true" onload="this.parentNode.style.opacity=1;" /></div></div></div></div>
+        </div>
+        <!-- Add more items with videos as needed -->
+    </div>
+
+    <script>
+        $(document).ready(function(){
+            $(".owl-carousel").owlCarousel({
+                items: 3, // Display three videos at a time on larger screens
+                loop: true,
+                autoplay: true,
+                autoplayTimeout: 5000, // Set autoplay interval in milliseconds
+                autoplayHoverPause: true,
+                nav: true, // Show navigation arrows
+                dots: false, // Hide pagination dots
+                responsive: {
+                    0: {
+                        items: 1, // Display one video at a time on smaller screens
+                    },
+                    768: {
+                        items: 3, // Display two videos at a time on medium-sized screens
+                    },
+                    1024: {
+                        items: 4, // Display three videos at a time on larger screens
+                    }
+                }
+            });
+        });
+    </script>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Owl Carousel Video Slider</title>
+
+    <!-- Owl Carousel CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+
+    <!-- Owl Carousel JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+    <style>
+        .owl-carousel {
+            margin: 30px;
+        }
+
+        .item {
+            position: relative;
+            padding: 10px;
+        }
+
+        .play-button {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            cursor: pointer;
+            z-index: 1;
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .play-button svg {
+            width: 60px;
+            height: 60px;
+        }
+
+        video {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="owl-carousel">
+        <div class="item">
+            <div class="play-button" onclick="playVideo(this)">
+                <svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 283.465 283.465" viewBox="0 0 283.465 283.465" id="Play"><path fill="#f7d100" fill-rule="evenodd" d="M40.825,56.413h201.815c13.987,0,25.432,11.444,25.432,25.431V201.62c0,13.988-11.444,25.431-25.432,25.431H40.825c-13.988,0-25.432-11.444-25.432-25.431V81.844C15.393,67.857,26.837,56.413,40.825,56.413z" clip-rule="evenodd" class="colorf16345 svgShape"></path><path fill="#e6c824" fill-rule="evenodd" d="M141.733,56.413h100.907c13.987,0,25.432,11.444,25.432,25.431V201.62c0,13.988-11.444,25.431-25.432,25.431H141.733V56.413z" clip-rule="evenodd" class="colore62447 svgShape"></path><polygon fill="#ffffff" fill-rule="evenodd" points="174.822 141.732 141.733 118.407 108.643 95.082 108.643 141.732 108.643 188.383 141.733 165.057" clip-rule="evenodd" class="colorffffff svgShape"></polygon><polygon fill="#e8e8e6" fill-rule="evenodd" points="174.822 141.732 141.733 118.407 141.733 118.407 141.733 165.058 141.733 165.057" clip-rule="evenodd" class="colore6e7e8 svgShape"></polygon></svg>
+            </div>
+            <video controls onplay="hidePlayButton(this)">
+                <source src="https://creativecutsclan.com/wp-content/uploads/2023/12/nature-status-in-india-nature-shorts-1080-ytshorts.savetube.me_.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+        <div class="item">
+            <div class="play-button" onclick="playVideo(this)">
+                <svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 283.465 283.465" viewBox="0 0 283.465 283.465" id="Play"><path fill="#f7d100" fill-rule="evenodd" d="M40.825,56.413h201.815c13.987,0,25.432,11.444,25.432,25.431V201.62c0,13.988-11.444,25.431-25.432,25.431H40.825c-13.988,0-25.432-11.444-25.432-25.431V81.844C15.393,67.857,26.837,56.413,40.825,56.413z" clip-rule="evenodd" class="colorf16345 svgShape"></path><path fill="#e6c824" fill-rule="evenodd" d="M141.733,56.413h100.907c13.987,0,25.432,11.444,25.432,25.431V201.62c0,13.988-11.444,25.431-25.432,25.431H141.733V56.413z" clip-rule="evenodd" class="colore62447 svgShape"></path><polygon fill="#ffffff" fill-rule="evenodd" points="174.822 141.732 141.733 118.407 108.643 95.082 108.643 141.732 108.643 188.383 141.733 165.057" clip-rule="evenodd" class="colorffffff svgShape"></polygon><polygon fill="#e8e8e6" fill-rule="evenodd" points="174.822 141.732 141.733 118.407 141.733 118.407 141.733 165.058 141.733 165.057" clip-rule="evenodd" class="colore6e7e8 svgShape"></polygon></svg>
+            </div>
+            <video controls onplay="hidePlayButton(this)">
+                <source src="https://creativecutsclan.com/wp-content/uploads/2023/12/nature-status-in-india-nature-shorts-1080-ytshorts.savetube.me_.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+        <div class="item">
+            <div class="play-button" onclick="playVideo(this)">
+                <svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 283.465 283.465" viewBox="0 0 283.465 283.465" id="Play"><path fill="#f7d100" fill-rule="evenodd" d="M40.825,56.413h201.815c13.987,0,25.432,11.444,25.432,25.431V201.62c0,13.988-11.444,25.431-25.432,25.431H40.825c-13.988,0-25.432-11.444-25.432-25.431V81.844C15.393,67.857,26.837,56.413,40.825,56.413z" clip-rule="evenodd" class="colorf16345 svgShape"></path><path fill="#e6c824" fill-rule="evenodd" d="M141.733,56.413h100.907c13.987,0,25.432,11.444,25.432,25.431V201.62c0,13.988-11.444,25.431-25.432,25.431H141.733V56.413z" clip-rule="evenodd" class="colore62447 svgShape"></path><polygon fill="#ffffff" fill-rule="evenodd" points="174.822 141.732 141.733 118.407 108.643 95.082 108.643 141.732 108.643 188.383 141.733 165.057" clip-rule="evenodd" class="colorffffff svgShape"></polygon><polygon fill="#e8e8e6" fill-rule="evenodd" points="174.822 141.732 141.733 118.407 141.733 118.407 141.733 165.058 141.733 165.057" clip-rule="evenodd" class="colore6e7e8 svgShape"></polygon></svg>
+            </div>
+            <video controls onplay="hidePlayButton(this)">
+                <source src="https://creativecutsclan.com/wp-content/uploads/2023/12/nature-status-in-india-nature-shorts-1080-ytshorts.savetube.me_.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+        <!-- Add more items with videos as needed -->
+    </div>
+
+    <script>
+        function playVideo(playButton) {
+            var video = playButton.nextElementSibling;
+            video.play();
+        }
+
+        function hidePlayButton(video) {
+            var playButton = video.parentElement.querySelector('.play-button');
+            playButton.style.display = 'none';
+        }
+
+        $(document).ready(function(){
+            $(".owl-carousel").owlCarousel({
+                items: 3,
+                loop: true,
+                autoplay: true,
+                autoplayTimeout: 10000,
+                autoplayHoverPause: true,
+                nav: true,
+                dots: false,
+                responsive: {
+                    0: { items: 1 },
+                    768: { items: 3 },
+                    1024: { items: 4 }
+                }
+            });
+        });
+    </script>
+
+</body>
+</html>
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Owl Carousel Video Slider</title>
+
+    <!-- Owl Carousel CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+
+    <!-- Owl Carousel JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+    <style>
+        .owl-carousel {
+            margin: 30px;
+        }
+
+        .item {
+            padding: 10px; /* Add space between videos */
+        }
+
+        video {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="owl-carousel">
+        <div class="item">
+            <video controls>
+                <source src="https://creativecutsclan.com/wp-content/uploads/2023/12/nature-status-in-india-nature-shorts-1080-ytshorts.savetube.me_.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+        <div class="item">
+            <video controls>
+                <source src="https://creativecutsclan.com/wp-content/uploads/2023/12/nature-status-in-india-nature-shorts-1080-ytshorts.savetube.me_.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+        <div class="item">
+            <video controls>
+                <source src="https://creativecutsclan.com/wp-content/uploads/2023/12/nature-status-in-india-nature-shorts-1080-ytshorts.savetube.me_.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+        <!-- Add more items with videos as needed -->
+    </div>
+
+    <script>
+        $(document).ready(function(){
+            $(".owl-carousel").owlCarousel({
+                items: 3, // Display three videos at a time on larger screens
+                loop: true,
+                autoplay: true,
+                autoplayTimeout: 10000, // Set autoplay interval in milliseconds
+                autoplayHoverPause: true,
+                nav: true, // Show navigation arrows
+                dots: false, // Hide pagination dots
+                responsive: {
+                    0: {
+                        items: 1, // Display one video at a time on smaller screens
+                    },
+                    768: {
+                        items: 3, // Display two videos at a time on medium-sized screens
+                    },
+                    1024: {
+                        items: 4, // Display three videos at a time on larger screens
+                    }
+                }
+            });
+        });
+    </script>
+
+</body>
+</html>
